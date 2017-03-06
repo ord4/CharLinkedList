@@ -1,14 +1,12 @@
 /*
-   COPYRIGHT (C) 2016 Student Name (UANET ID ) All rights reserved.
-   CSII assignment 5 A
-   Author.  Student Name
-            zippy@zips.uakron.edu
-   Version. 1.01 09.09.2017
-
+	Orion Davis (3003072) ord4@zips.uakron.edu
+	The University of Akron
+	Computer Science II, Prof. Will
+	ASSGN5: Char Linked List
 */
 // Implementation file for the NumberList class
-
-// Your coding required here 
+#include "charList.hpp"
+// Your coding required here
 
 
 //**************************************************
@@ -45,7 +43,7 @@ void CharList::displayList() const
 }
 
 
-// More of your coding required here 
+// More of your coding required here
 
 
 //**************************************************
