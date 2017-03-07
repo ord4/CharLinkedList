@@ -4,4 +4,23 @@
 	Computer Science II, Prof. Will
 	ASSGN5: Char Linked List
 */
-// Specification file of the NumberList class
+class CharList{
+	public:
+		CharList();
+
+		~CharList();
+
+		void appendNode(char);
+		void insertNode(char);
+		void deleteNode(char);
+		void displayList() const;
+
+	private:
+		// Define struct for linking list elements
+		struct ListNode{
+				char value;
+				struct ListNode *next;
+		};
+		// Define head pointer
+		ListNode *head;
+};

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orion/Documents/code/cs2/CharLinkedList/charList.cpp
+iostream
+-
+charList.hpp
+/home/orion/Documents/code/cs2/CharLinkedList/charList.hpp
+
+/home/orion/Documents/code/cs2/CharLinkedList/charList.hpp
+
+/home/orion/Documents/code/cs2/CharLinkedList/charList_main.cpp
+iostream
+-
+charList.hpp
+/home/orion/Documents/code/cs2/CharLinkedList/charList.hpp
+
