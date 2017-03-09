@@ -6,10 +6,11 @@
 */
 class CharList{
 	public:
+		// Defualt constructor and destructor
 		CharList();
-
 		~CharList();
 
+		// Operating on the list
 		void appendNode(char);
 		void insertNode(char);
 		void deleteNode(char);

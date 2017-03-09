@@ -11,6 +11,7 @@
 CharList::CharList(){
 	head = nullptr;
 }
+
 /*********************************************************************
 * appendNode will add a node to the end of the linked list           *
 * PRE:  Char value                                                   *
@@ -103,13 +104,11 @@ void CharList::deleteNode(char myChar){
 	}
 }
 
-//**************************************************
-// displayList shows the value                     *
-// stored in each node of the linked list          *
-// pointed to by head.                             *
-// pre: an empty parameter list                    *
-// post: standard output of the linked list        *
-//**************************************************
+/*******************************************************************************
+* displayList will display each element of the linked list in descending order *
+* PRE:  None                                                                   *
+* POST: Contents of linked list displayed to user                              *
+*******************************************************************************/
 void CharList::displayList() const
 {
    ListNode *nodePtr;  // To move through the list
@@ -135,12 +134,12 @@ void CharList::displayList() const
    std::cout << std::endl;
 }
 
-//**************************************************
-// Destructor                                      *
-// This function deletes every node in the list.   *
-// pre: n/a                                        *
-// post: destroyed object                          *
-//**************************************************
+/****************************************************************************
+* destructor will delete every node in the linked list when it is no longer *
+* in scope                                                                  *
+* PRE:  None                                                                *
+* POST: Linked list nodes deleted from memory                               *
+****************************************************************************/
 CharList::~CharList()
 {
    ListNode *nodePtr;   // To traverse the list
