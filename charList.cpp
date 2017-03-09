@@ -57,7 +57,7 @@ void CharList::insertNode(char myChar){
 	else{
 		nodePtr = head;
 		previousNode = nullptr;
-		while(nodePtr != nullptr && nodePtr->value < myChar){
+		while(nodePtr != nullptr && nodePtr->value > myChar){
 			previousNode = nodePtr;
 			nodePtr = nodePtr->next;
 		}
